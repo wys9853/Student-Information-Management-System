@@ -10,7 +10,7 @@ This project is a student physical information management system implemented usi
 2. Requirements description
 ------
   In order to realize the school's management of the basic information of students' health, the school is convenient to view, insert, delete and modify student information
-  ! [image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
+![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
 
 
 
