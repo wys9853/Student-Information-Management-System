@@ -1,56 +1,56 @@
-学生信息管理系统
+Student Information Management System
 ======
 
 
-1.题目说明
+1. Title description
 ------
-本项目是使用Jsp+Sevlet+JavaBean实现的学生体质信息管理系统，样式使用了LayUI前端框架
+This project is a student physical information management system implemented using Jsp + Sevlet + JavaBean, and its style uses LayUI front-end framework
 
 
-2.需求描述
+2. Requirements description
 ------
-  为实现学校对学生体质基本信息的管理，方便学校对学生信息的查插删改
-  ![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
+  In order to realize the school's management of the basic information of students' health, the school is convenient to view, insert, delete and modify student information
+  ! [image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
 
 
 
 
 
-3.功能描述
+3. Function description
 -------
-（1）通过左侧导航栏实现五种不同的功能
+(1) Five different functions are realized through the left navigation bar
 
-（2）实现了添加学生信息：学号，姓名，性别，年龄，身高，体重，这六条数据的插入
+(2) Added student information: student ID, name, gender, age, height, weight, insertion of these six data
 
-（3）实现了通过学生学号删除学生信息的功能
+(3) The function of deleting student information through student ID is realized
 
-（4）通过学生学号单独查询学生信息
+(4) Query student information separately through student ID
 
-（5）列出数据库中全部学生信息
+(5) List all student information in the database
 
-（6）修改学生信息包括 学号，姓名，性别，年龄，身高，体重
+(6) Modify student information, including student ID, name, gender, age, height, weight
 
-（7）使用了layUI前端框架对图标，按钮，页面转场进行了美化处理
-
-
+(7) Use layUI front-end framework to beautify icons, buttons and page transitions
 
 
 
-4.设计思路
+
+
+4. Design ideas
 -----
-（1）Jsp+Sevlet+JavaBean
-JSP负责与用户的人机交互，Servlet负责流程控制，JavaBean负责数据操作。
-可以理解为JSP充当视图，Servlet充当控制器，JavaBeans充当模型
+(1) Jsp + Sevlet + JavaBean
+JSP is responsible for human-computer interaction with users, Servlet is responsible for process control, and JavaBean is responsible for data manipulation.
+Understandably, JSP acts as a view, Servlet acts as a controller, and JavaBeans acts as a model.
 
 
-（2）
-1.View层（JSP）,前台交互,比如我们注册时的数据等等,serlvet就是与前台数据进行交互的
-2.Contrller层（servlet充当）：Model与View之间沟通的桥梁， 这个层有业务处理,用户的注册登录就可以看做是User的业务,我们就需要将相关的处理代码写到这个层中。
-3.Model层：实现系统的业务逻辑，即javaBean，常见的就是封装对象的属性、数据库连接操作等。
+(2)
+1. View layer (JSP), front-end interaction, such as data during registration. Serlvet interacts with front-end data
+2. Control layer (acting as a servlet): a bridge between model and view. This layer has business processing. User registration and login can be regarded as the user's business. We need to write related processing code to this layer. .
+3. Model layer: realize the business logic of the system, namely javaBean, which is usually used to encapsulate the properties of objects, database connection operations, etc.
 
-（3）
-1.M层：创建com.dao和bean包用于持久化，如数据库连接，sql语言
-2.V层：jsp文件用于前端交互，网页显示数据，用户操作
-3.C层：servlet对业务功能进行处理查插删改
+(3)
+1. M layer: create com.dao and bean packages to achieve persistence, such as database connection, sql language
+2. V layer: jsp file is used for front-end interaction, web page display data, user operation
+3. Layer C: Servlet handles business functions, inserts, deletes and changes
 
 ![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image2.png)
