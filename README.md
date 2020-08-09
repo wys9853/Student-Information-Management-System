@@ -10,7 +10,7 @@
 2.需求描述
 ------
   为实现学校对学生体质基本信息的管理，方便学校对学生信息的查插删改
-  ![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/%E5%9B%BE%E7%89%871.png)
+  ![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
 
 
 
@@ -53,4 +53,4 @@ JSP负责与用户的人机交互，Servlet负责流程控制，JavaBean负责�
 2.V层：jsp文件用于前端交互，网页显示数据，用户操作
 3.C层：servlet对业务功能进行处理查插删改
 
-![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/%E5%9B%BE%E7%89%872.png)
+![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image2.png)
