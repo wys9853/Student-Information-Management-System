@@ -10,7 +10,6 @@ This project is a student physical information management system implemented usi
 2. Requirements description
 ------
   In order to realize the school's management of the basic information of students' health, the school is convenient to view, insert, delete and modify student information
-![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image1.png)
 
 
 
@@ -31,6 +30,7 @@ This project is a student physical information management system implemented usi
 (6) Modify student information, including student ID, name, gender, age, height, weight
 
 (7) Use layUI front-end framework to beautify icons, buttons and page transitions
+![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image/1.png)
 
 
 
@@ -42,6 +42,9 @@ This project is a student physical information management system implemented usi
 JSP is responsible for human-computer interaction with users, Servlet is responsible for process control, and JavaBean is responsible for data manipulation.
 Understandably, JSP acts as a view, Servlet acts as a controller, and JavaBeans acts as a model.
 
+![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image/2.png)
+
+![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image/3.png)
 
 (2)
 1. View layer (JSP), front-end interaction, such as data during registration. Serlvet interacts with front-end data
@@ -53,4 +56,4 @@ Understandably, JSP acts as a view, Servlet acts as a controller, and JavaBeans 
 2. V layer: jsp file is used for front-end interaction, web page display data, user operation
 3. Layer C: Servlet handles business functions, inserts, deletes and changes
 
-![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image2.png)
+
