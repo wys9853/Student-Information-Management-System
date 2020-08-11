@@ -44,7 +44,6 @@ Understandably, JSP acts as a view, Servlet acts as a controller, and JavaBeans 
 
 ![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image/2.png)
 
-![image](https://github.com/wys9853/Student-Information-Management-System/blob/master/image/3.png)
 
 (2)
 1. View layer (JSP), front-end interaction, such as data during registration. Serlvet interacts with front-end data
