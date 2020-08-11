@@ -1,13 +1,13 @@
 Student Information Management System
-======
+=====================================
 
 
-1. Title description
-------
+#Title description
+--------------------
 This project is a student physical information management system implemented using Jsp + Sevlet + JavaBean, and its style uses LayUI front-end framework
 
 
-2. Requirements description
+#Requirements description
 ------
   In order to realize the school's management of the basic information of students' health, the school is convenient to view, insert, delete and modify student information
 
@@ -15,7 +15,7 @@ This project is a student physical information management system implemented usi
 
 
 
-3. Function description
+#Function description
 -------
 (1) Five different functions are realized through the left navigation bar
 
@@ -36,7 +36,7 @@ This project is a student physical information management system implemented usi
 
 
 
-4. Design ideas
+#Design ideas
 -----
 (1) Jsp + Sevlet + JavaBean
 JSP is responsible for human-computer interaction with users, Servlet is responsible for process control, and JavaBean is responsible for data manipulation.
