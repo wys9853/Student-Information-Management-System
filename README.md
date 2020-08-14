@@ -53,6 +53,6 @@ Understandably, JSP acts as a view, Servlet acts as a controller, and JavaBeans 
 (3)
 1. M layer: create com.dao and bean packages to achieve persistence, such as database connection, sql language
 2. V layer: jsp file is used for front-end interaction, web page display data, user operation
-3. Layer C: Servlet handles business functions, inserts, deletes and changes 
+3. Layer C: Servlet handles business functions, inserts, deletes and changes  
 
 
